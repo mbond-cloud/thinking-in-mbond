@@ -13,6 +13,7 @@ import java.util.concurrent.Semaphore;
  * @date: 2021/9/22
  **/
 public class SemaphoreDemo {
+    //允许一个线程进入
     private final Semaphore semaphore = new Semaphore(1);
     private int x=0;
 

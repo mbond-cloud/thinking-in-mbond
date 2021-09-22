@@ -10,7 +10,9 @@
    
     <packaging>pom</packaging>
 
-
+    <modules>
+        <module>javase</module>
+    </modules>
 
     
 
