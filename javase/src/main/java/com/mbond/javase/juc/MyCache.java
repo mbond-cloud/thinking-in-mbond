@@ -8,9 +8,10 @@ import java.util.concurrent.locks.ReentrantReadWriteLock;
 
 /**
  * @description: ReadWriteLock实现一个缓存
+ * 读锁、写锁
  * 读多写少的场景
  * 支持锁降级：写锁——>读锁
- * 只有写锁支持条件变量，因此读是不互斥的
+ * 只有写锁支持条件变量，因为读是不互斥的
  * @author: mbond
  * @date: 2021/9/22
  **/
